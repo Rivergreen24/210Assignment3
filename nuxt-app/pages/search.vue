@@ -38,11 +38,24 @@ const filteredPosts = computed(() => {
 .search {
   max-width: 800px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: #1b2d2f;
+  border: 2px solid #2d585f;
+  border-radius: 8px;
+  color: #e0e0e0;
 }
+
+h1 {
+  color: #4eafc0;
+}
+
 input {
-  width: 100%;
   padding: 0.5rem;
-  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #2d585f;
+  border-radius: 4px;
+  background-color: #123335;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
 }
 </style>

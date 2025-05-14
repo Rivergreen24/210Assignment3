@@ -34,10 +34,32 @@ onMounted(async () => {
 .Blog {
   max-width: 800px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: #1b2f26;
+  border: 2px solid #2d5f3b;
+  border-radius: 8px;
+  color: #e0e0e0;
 }
+
+h1 {
+  color: #4eafc0;
+}
+
+strong{
+    color: #398896;
+}
+
 .content {
   margin-top: 2rem;
   line-height: 1.6;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  color: #3e8a5e;
+  margin-top: 1.5rem;
 }
 </style>

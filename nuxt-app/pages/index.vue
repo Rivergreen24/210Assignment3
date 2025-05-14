@@ -36,15 +36,42 @@ const filteredPosts = computed(() => {
 
 </script>
 
-<style>
+<style scoped>
 .home {
   max-width: 800px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: #1b2d2f;
+  border: 2px solid #2d5c5f;
+  border-radius: 8px;
+  color: #a7a5a5;
 }
+
+h1 {
+  color: #4eafc0;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+select {
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #2d5f57;
+  border-radius: 4px;
+  background-color: #122b35;
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+
+
+
 </style>
-
-
 
 
 
