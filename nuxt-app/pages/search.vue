@@ -33,3 +33,16 @@ const filteredPosts = computed(() => {
 })
 
 </script>
+
+<style scoped>
+.search {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+</style>

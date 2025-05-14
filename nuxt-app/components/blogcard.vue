@@ -3,7 +3,7 @@
     <h2>{{ post.title }}</h2>
     <p><strong>Author:</strong> {{ post.author }}</p>
     <p>{{ post.snippet }}</p>
-    <NuxtLink :to="`/posts/${post.id}`">Read more</NuxtLink>
+    <NuxtLink :to="`/posts/${post.documentId}`">Read more</NuxtLink>
   </div>
 </template>
 
