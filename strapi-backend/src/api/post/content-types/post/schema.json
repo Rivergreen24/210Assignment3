@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "snippet": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
