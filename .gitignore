@@ -1,3 +1,8 @@
+# Node.js
 node_modules/
-
+# Nuxt
 .nuxt/
+# Environment
+.env
+.env.*
+!.env.example
